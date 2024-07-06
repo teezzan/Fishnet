@@ -9,7 +9,7 @@ const COLUMNS: ITableColumns[] = [
     cell: (item) => (
       <>
         <Link
-          to={`/data/${item.item_hash}/details`}
+          to={`/data/${item.datasetId}`}
           className="text-primary whitespace-nowrap"
         >
           {item.datasetName}
